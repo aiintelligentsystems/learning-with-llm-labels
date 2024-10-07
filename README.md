@@ -10,22 +10,20 @@ level attained by third-party vendor services and that GPT-4-generated labels ev
 ## Reproducibility
 
 1. Cloning of the repository with
-
 ```bash
 git clone https://github.com/aiintelligentsystems/learning-with-llm-labels
 cd learning-with-llm-labels
 ```
 
-2. Download the [data](https://s3.amazonaws.com/amazon-reviews-pds/readme.html)
-```bash
-python src/data_download.py <data-path> data/reviews.json
-```
-
-3. Create a conda environment
-
+2. Create a conda environment
 ```bash
 conda env create -f environment.yml
 conda activate paper
+```
+
+3. Download the [data](https://s3.amazonaws.com/amazon-reviews-pds/readme.html) and use the script to convert it into our format:
+```bash
+python src/data_download.py <data-path> data/reviews.json
 ```
 
 4. Annotation
