@@ -1,6 +1,6 @@
 # Learning to Predict Usage Options of Product Reviews with LLM-Generated Labels
 
-This repository provides the paper and code of **[Learning to Predict Usage Options of Product Reviews with LLM-Generated Labels](paper.pdf)**, a study that explores different annotation approaches for solving a complex task.
+This repository provides the paper and code of **[Learning to Predict Usage Options of Product Reviews with LLM-Generated Labels](https://arxiv.org/abs/2410.12470)**, a study that explores different annotation approaches for solving a complex task.
 
 ## Introduction
 
